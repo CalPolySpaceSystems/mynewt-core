@@ -253,6 +253,8 @@ This product bundles parts of CMSIS-CORE, which is available under the
     * hw/cmsis-core/
     * kernel/os/src/arch/cortex_m0/m0/HAL_CM0.s
     * kernel/os/src/arch/cortex_m0/m0/SVC_Table.s
+    * kernel/os/src/arch/cortex_m3/m3/HAL_CM3.s
+    * kernel/os/src/arch/cortex_m3/m3/SVC_Table.s
     * kernel/os/src/arch/cortex_m4/m4/HAL_CM4.s
     * kernel/os/src/arch/cortex_m4/m4/SVC_Table.s
 
