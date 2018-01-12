@@ -231,6 +231,7 @@ boot_read_image_header(int slot, struct image_header *out_hdr)
         goto done;
     }
 
+	__asm__("bkpt");
     rc = flash_area_read(fap, 0, out_hdr, sizeof *out_hdr);
     if (rc != 0) {
         rc = BOOT_EFLASH;
